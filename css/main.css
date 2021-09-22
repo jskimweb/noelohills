@@ -1,0 +1,100 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Quicksand:wght@600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+img {
+  border: 0;
+  vertical-align: middle;
+}
+
+li,
+ul {
+  list-style: none;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: 'Quicksand', 'Noto Sans KR', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: -.045rem;
+  color: #676d72;
+}
+
+/* Common Class */
+.container {
+  position: relative;
+  display: block;
+  width: 100%;
+  max-width: 147rem;
+  padding: 0 1.5rem;
+  margin: 0 auto;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.clearfix::after {
+  content: "";
+  position: relative;
+  display: block;
+  width: 100%;
+  clear: both;
+}
+
+.wrap {
+  position: relative;
+  display: block;
+}
+
+/* Header */
+.header {
+  position: relative;
+  display: block;
+}
+
+/* Visual */
+.visual {
+  position: relative;
+  display: block;
+}
+
+/* OUR PROMISE */
+.prom {
+  position: relative;
+  display: block;
+}
+
+/* OUR PRODUCTS */
+.prod {
+  position: relative;
+  display: block;
+}
+
+/* Info */
+.info {
+  position: relative;
+  display: block;
+}
+
+/* Footer */
+.footer {
+  position: relative;
+  display: block;
+}
