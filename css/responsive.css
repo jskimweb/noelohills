@@ -466,4 +466,9 @@
 		width: 13rem;
 		white-space: nowrap;
 	}
+
+	/* Go-top */
+	.go-top {
+		display: none;
+	}
 }

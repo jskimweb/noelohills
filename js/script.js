@@ -64,6 +64,15 @@ window.onload = function () {
 		},
 	});
 
+	// footer-info 보이기/숨기기
+	const footerBtn = $('.footer__btn');
+	const footerInfo = $('.footer-info');
+	const footerInfoShow = 'footer-info--show';
+
+	footerBtn.click(function () {
+		footerInfo.toggleClass(footerInfoShow);
+	});
+
 	// Go-top
 	const goTop = $('.go-top');
 	const goTopShow = 'go-top--show';
@@ -83,14 +92,5 @@ window.onload = function () {
 		} else {
 			goTop.removeClass(goTopShow);
 		}
-	});
-
-	// footer-info 보이기/숨기기
-	const footerBtn = $('.footer__btn');
-	const footerInfo = $('.footer-info');
-	const footerInfoShow = 'footer-info--show';
-
-	footerBtn.click(function () {
-		footerInfo.toggleClass(footerInfoShow);
 	});
 }
