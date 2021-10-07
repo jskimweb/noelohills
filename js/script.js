@@ -1,4 +1,21 @@
 window.onload = function () {
+	// 모달창 닫기
+	const modal = $('.modal');
+	const modalBox = $('.modal-box');
+	const modalClose = $('.modal__close');
+
+	modalClose.click(function () {
+		modal.stop().fadeOut();
+	});
+
+	modal.click(function () {
+		$(this).stop().fadeOut();
+	});
+
+	modalBox.click(function (event) {
+		event.stopPropagation();
+	});
+
 	// 스크롤 시 Header 고정
 	const header = $('.header');
 	const headerScr = 'header--scroll';
